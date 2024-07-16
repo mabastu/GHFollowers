@@ -27,6 +27,7 @@
 		0AD44F732C3D59E20072A20B /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD44F722C3D59E20072A20B /* ErrorMessage.swift */; };
 		0AD44F762C416BE80072A20B /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD44F752C416BE80072A20B /* FollowerCell.swift */; };
 		0AD44F782C416D1E0072A20B /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD44F772C416D1E0072A20B /* GFAvatarImageView.swift */; };
+		0AD44F7A2C4277370072A20B /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD44F792C4277370072A20B /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		0AD44F722C3D59E20072A20B /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		0AD44F752C416BE80072A20B /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		0AD44F772C416D1E0072A20B /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		0AD44F792C4277370072A20B /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				0AD44F722C3D59E20072A20B /* ErrorMessage.swift */,
+				0AD44F792C4277370072A20B /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				0A45745E2C0CA8E0008DCD02 /* GFTitleLabel.swift in Sources */,
 				0A45745C2C0B32A0008DCD02 /* FollowerListVC.swift in Sources */,
 				0AD44F732C3D59E20072A20B /* ErrorMessage.swift in Sources */,
+				0AD44F7A2C4277370072A20B /* UIHelper.swift in Sources */,
 				0AD44F702C3944960072A20B /* NetworkManager.swift in Sources */,
 				0A34E54D2C03A7BE007DE513 /* GFTextField.swift in Sources */,
 				0ACB53792C10590C00805BBA /* GFBodyLabel.swift in Sources */,
@@ -411,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,6 +447,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

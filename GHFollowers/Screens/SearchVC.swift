@@ -7,8 +7,6 @@
 
 import UIKit
 
-import UIKit
-
 class SearchVC: UIViewController {
     
     let logoImageView = UIImageView()
@@ -101,7 +99,3 @@ extension SearchVC: UITextFieldDelegate {
     }
 }
 
-
-#Preview {
-    SearchVC()
-}

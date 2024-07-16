@@ -14,8 +14,3 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemPurple
     }
 }
-
-
-#Preview {
-    ViewController()
-}

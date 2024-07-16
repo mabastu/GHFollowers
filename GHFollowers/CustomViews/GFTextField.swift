@@ -38,7 +38,3 @@ class GFTextField: UITextField {
     }
     
 }
-
-#Preview {
-    GFTextField()
-}

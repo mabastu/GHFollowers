@@ -32,7 +32,3 @@ class GFButton: UIButton {
         translatesAutoresizingMaskIntoConstraints = false
     }
 }
-
-#Preview {
-    GFButton(backgroundColor: .blue, title: "Hello")
-}

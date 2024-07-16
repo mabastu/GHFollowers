@@ -16,15 +16,15 @@ class GFAlertVC: UIViewController {
     
     var alertTitle: String?
     var message: String?
-    var buttonTtile: String?
+    var buttonTitle: String?
     
     let padding: CGFloat = 20
     
-    init(title: String, message: String, buttonTtile: String) {
+    init(title: String, message: String, buttonTitle: String) {
         super.init(nibName: nil, bundle: nil)
         self.alertTitle = title
         self.message = message
-        self.buttonTtile = buttonTtile
+        self.buttonTitle = buttonTitle
     }
     
     required init?(coder: NSCoder) {
@@ -34,13 +34,13 @@ class GFAlertVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
-        configureConatinerView()
+        configureContainerView()
         configureTitleLabel()
         configureActionButton()
         configureMessageLabel()
     }
     
-    private func configureConatinerView() {
+    private func configureContainerView() {
         view.addSubview(containerView)
         containerView.backgroundColor = .systemBackground
         containerView.layer.cornerRadius = 16
@@ -71,7 +71,7 @@ class GFAlertVC: UIViewController {
 
     private func configureActionButton() {
         containerView.addSubview(actionButton)
-        actionButton.setTitle(buttonTtile ?? "OK", for: .normal)
+        actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
         actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         
